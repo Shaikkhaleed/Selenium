@@ -37,7 +37,6 @@ driver.findElement(By.xpath("//input[@value='CONTINUE']")).click();
 Thread.sleep(3000);
 driver.findElement(By.xpath("//a[normalize-space()='FINISH']")).click();
 Thread.sleep(5000);
-driver.findElement(By.xpath("//a[normalize-space()='FINISH']")).getText();
 driver.close();
 	}
 
